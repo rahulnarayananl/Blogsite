@@ -11,9 +11,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ScreenShots :
 -------------
 <div align="center">
-    <img src="1.png"</img>
-    <img src="2.png"</img>
-    <img src="3.png"</img>
+    <img src="screenshots/1.png"</img>
+    <img src="screenshots/2.png"</img>
+    <img src="screenshots/3.png"</img>
  </div>
  
  
