@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Users can create a blog using New Blog
 - Users can read all the blog in Home
 - Users can delete a blog 
+- Fetches rest-api and sends the appropriate request to handle the data
+- Used json-server to mock rest-api
+
+
 
  
 ScreenShots :
