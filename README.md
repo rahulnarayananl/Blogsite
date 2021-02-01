@@ -1,11 +1,12 @@
 # Blog Site
-A simple blog site with CRD functions built with react and react hooks.
+A simple blog site with CRUD functions built with react and react hooks.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Functional Dependency
 - Users can create a blog using New Blog
 - Users can read all the blog in Home
-- Users can delete a blog 
+- Users can delete a blog
+- Users can now update a blog
 - Fetches rest-api and sends the appropriate request to handle the data
 - Used json-server to mock rest-api
 
@@ -19,6 +20,14 @@ ScreenShots :
     <img src="screenshots/2.png"</img>
     <img src="screenshots/3.png"</img>
  </div>
+ Update:
+ -------
+ <div align="center">
+    <img src="screenshots/4.png"</img>
+    <img src="screenshots/5.png"</img>
+    <img src="screenshots/6.png"</img>
+ </div>
+ 
  
  
 
@@ -49,6 +58,4 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
 
