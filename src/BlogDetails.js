@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import UseFetch from "./UseFetch";
 import { useHistory } from "react-router-dom";
-
+import {Link} from 'react-router-dom';
 
 const BlogDetails = () => {
 
@@ -28,11 +28,16 @@ const BlogDetails = () => {
                 <article>
                     <h2>Blog Title: {blog.title}</h2>
                     <p>Written by: {blog.author}</p>
-                    <div>{blog.body}</div>
-                    <button onClick = {handleClick}>Delete </button>
+                    <p>{blog.body}</p>
+                    
                     <button onClick = {()=>{
                         history.go(-1);
                     }}> Back</button>
+                    <Link to={`/update/${blog.id}`}>
+                    <button>Update </button>
+                    </Link>
+
+                    <button onClick = {handleClick}>Delete </button>
                 </article>
             )}
 
