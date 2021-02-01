@@ -20,8 +20,9 @@ ScreenShots :
     <img src="screenshots/2.png"</img>
     <img src="screenshots/3.png"</img>
  </div>
+ 
  Update:
- -------
+ ----------
  <div align="center">
     <img src="screenshots/4.png"</img>
     <img src="screenshots/5.png"</img>
