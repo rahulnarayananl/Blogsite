@@ -10,6 +10,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Fetches rest-api and sends the appropriate request to handle the data
 - Used json-server to mock rest-api
 
+## Update
+- Added backend support by implementing django framework
+- All api are fetched from django-rest-framework
 
 
  
