@@ -9,9 +9,9 @@ const BlogDetails = () => {
 
 
     const {id} = useParams();
-    const {data : blog ,isPending,error} = UseFetch('http://localhost:8000/blogs/' + id);
+    const {data : blog ,isPending,error} = UseFetch('http://localhost:8000/blogs/' + id + '/');
     const handleClick = () =>{
-        fetch('http://localhost:8000/blogs/' + id,{
+        fetch('http://localhost:8000/blogs/' + id + '/',{
             method: 'DELETE'
         }).then(() => {
             //history.go(-1);

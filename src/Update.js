@@ -15,7 +15,7 @@ const Update = () => {
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('mario');
 
-    const url = 'http://localhost:8000/blogs/' + id;
+    const url = 'http://localhost:8000/blogs/' + id + '/';
 
     useEffect(() => {
         const abortconst = new AbortController();
@@ -51,7 +51,7 @@ const Update = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const blog = {title,body,author};
-        fetch('http://localhost:8000/blogs/' + id,{
+        fetch(url,{
             method: 'PUT',
             headers: { "Content-Type": "application/json" },
             body : JSON.stringify(blog)
